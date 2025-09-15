@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Home | Mike's Resume</title>
+
+        <link rel="stylesheet" type="text/css" href="../style.css">
+    </head>
+    <body>
+        <div class="page-wrapper">
+            <header>
+                <h1>Mike's Resume</h1>
+                <p>A website showcasing Mike's work and accomplishments</p>
+            </header>
+            <div class="container">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../education/education.html">Education</a></li>
+                        <li><a href="../experiences/experiences.html">Experiences</a></li>
+                        <li><a href="../certifications/certifications.html">Certifications</a></li>
+                        <li><a href="../references/references.html">References</a></li>
+                        <li><a href="../achievements/achievements.html">Achievements</a></li>
+                        <li><a href="../projects/projects.html">Projects</a></li>
+                    </ul>
+                </nav>
+                <main>
+                    <h2>Projects</h2>
+                    <div class="main-section">
+                        <h3>Github</h3>
+                        <p><a href="https://github.com/mike-gre52/">Mike-gre52's Github Profile</a></p>
+                    </div>
+                    <div class="main-section">
+                        <h3>Calculator</h3>
+                        <div class="calculator-content">
+                            <label for="one">Number 1: <input id="one"></label>
+                            <label for="two">Number 2: <input id="two"></label>
+                            <div class="calculator-buttons">
+                                <button onClick="doAdd()">+</button>
+                                <button onClick="doSub()">-</button>
+                                <button onClick="doMultiply()">*</button>
+                                <button onClick="doDivide()">/</button>
+                                <button onClick="doPower()">^</button>
+                                <button onClick="doClear()">AC</button>
+                            </div>
+                            <h2 id="output"></h2>
+                        </div>
+
+                    </div>
+                </main>
+            </div>
+            <footer>
+                <p>All Rights Reserved by Michael Greene 2025 <a href="../index.html">Credits</a> &#169;</p>
+            </footer>
+        </div>
+        <script src="../index.js"></script>
+    </body>
+</html>
